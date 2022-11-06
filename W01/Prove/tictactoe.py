@@ -159,7 +159,6 @@ def winner(squares):
             print("\nGood game. Thanks for playing!")
             return False
 
-
 if __name__ == "__main__":
     print("Hello! Welcome to a game of Tic Tac Toe!")
     main()
