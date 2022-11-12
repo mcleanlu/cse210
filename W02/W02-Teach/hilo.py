@@ -1,3 +1,9 @@
+#Hilo
+#CSE210
+#Week 02 - Prove
+# Luke McLean
+# lucas.w.mclean@gmail.com  
+
 from player import Player
 from dealer import Dealer
 
