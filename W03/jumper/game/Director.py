@@ -3,32 +3,25 @@ from game.word import words
 from game.console import Console
 
 
-
 class Director:
 
-
     def __init__(self):
-        self.keep_playing = True
+        self.new_round = True
         self.console = Console()
         self.jumper = Jumper()
         self.word = words
 
-    def start_game(self):
+    def game_round(self):
+        while self.new_round:
+            self.get_letter()
+            self.set_jumper()
+            self.set_pass()
 
-        while self.keep_playing:
-            self.get_inputs()
-            self.do_updates()
-            self.do_outputs()
-
-    def get_inputs(self):
+    def get_letter(self):
         self.word
 
-    def do_updates(self):
-        
+    def set_jumper(self):
         self.jumper.process()
 
-    def do_outputs(self):
+    def set_pass(self):
         pass
-
-
-
