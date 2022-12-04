@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./W05/Prove/cycle_download"
+    ]
+}
